@@ -47,7 +47,7 @@ nav ul li{
 
 .banner{
     text-align: center;
-    background-image: url('/assets/Hero-bg.png');
+    background-image: url('../assets/Hero-bg.png');
     height: 652px;
     align-items: center;
     border: 2px dashed rgba(0, 0, 0, 0.74);
