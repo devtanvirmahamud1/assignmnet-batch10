@@ -194,3 +194,57 @@ iframe{
     border-radius: 10px;
 }
 
+/* Skill Container */
+
+.skills{
+    width: 1140px;
+    margin: 150px auto;
+}
+.text-center{
+    text-align: center;
+    margin: 40px 0;
+}
+
+.section-des{
+    margin-top: 15px;
+}
+.skill-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.skill{
+    width: 284px;
+    height: 220px;
+    padding: 40px;
+    background-color: rgba(255, 76, 30, 0.05);
+    border-radius: 16px;
+}
+
+.skill-2{
+    width: 284px;
+    height: 220px;
+    padding: 40px;
+    background-color: rgba(0, 76, 232, 0.05);
+    border-radius: 16px;
+}
+
+.skill-title{
+    margin: 10px 0;
+}
+
+.skill-description{
+    font-size: 15px;
+    line-height: 26px;
+    margin-bottom: 15px;
+}
+
+.skill a{
+    color: Black;
+}
+
+.skill-2 a{
+    color: Black;
+}
+
