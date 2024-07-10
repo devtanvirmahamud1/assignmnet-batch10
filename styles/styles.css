@@ -1,16 +1,16 @@
 /* // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 100 to 900 */
-
+*{
+    margin: 0;
+    padding: 0;
+}
 .azeret-mono{
   font-family: "Azeret Mono", monospace;
   font-optical-sizing: auto;
   font-style: normal;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-}
+
 
 /* NAV Section Styles */
 .header{
@@ -25,9 +25,9 @@ nav ul li{
     list-style: none;
 }
 
-/* nav ul li a{
+nav ul li a{
     text-decoration: None;
-} */
+}
 
 .btn{
     padding: 17px 24px;
@@ -83,3 +83,114 @@ nav ul li{
     color: white;
     border-radius: 8px;
 }
+
+/* About Section */
+
+.about{
+    margin: 100px auto;
+    text-align: center;
+    padding: 80px 100px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    width: 946px;
+}
+
+.about-title h1{
+    margin: 20px 0;
+}
+
+.abouts-content{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 16px;
+    padding:25px;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.left-content{
+    width: 477px;
+    text-align: left;
+    font-weight:400;
+    font-size:15px;
+    line-height: 20px;
+}
+
+.left-content h4{
+    width:477px;  font-size: 22px;
+    font-weight: 700;
+    line-height: 36px;
+    color: rgba(13, 19, 33, 0.7);
+    margin: 16px 0;
+}
+
+.right-content{
+    width: 477px;
+    text-align: left;
+    font-weight:400;
+    font-size:15px;
+    line-height: 20px;
+}
+.right-content h4{
+    font-size: 22px;
+    font-weight:700;
+    line-height: 36px;
+    color: rgba(13, 19, 33, 0.7);
+    margin: 16px 0;
+}
+
+.about-right{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 16px;
+    padding:25px;
+    margin: 20px 0;
+    justify-content: space-around;
+}
+
+.btn-about{
+    border: 1px solid rgba(13, 19, 33, 0.7);;
+    padding: 12px 20px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+    background-color: #fff;
+    color: rgba(13, 19, 33, 0.7);
+}
+
+/* inspiration section */
+
+.inspiration{
+   margin: 0 auto;
+   text-align: center;
+   width: 1140px;
+}
+
+.ins-content{
+    width:852px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.ins-content h1{
+    margin-bottom: 20px;
+}
+
+.video{
+    border: 1px solid black;
+    padding: 32px;
+    border-radius: 5px;
+    margin: 48px 0;
+    width: 1076px;
+}
+
+iframe{
+    border-radius: 10px;
+}
+
