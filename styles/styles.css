@@ -248,3 +248,28 @@ iframe{
     color: Black;
 }
 
+/* Footer Section */
+
+.contact{
+    width: 1044px;
+    height: 250px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.363), rgba(0, 0, 0, 0.669)),url('/assets/handshake.jpg');
+    margin: 0 auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+}
+
+.Support{
+    text-align: center;
+    padding: 64px 48px;
+    color: #fff;
+}
+
+.Support p{
+    margin: 20px 0;
+    font-size: 12px;
+}
+
+
